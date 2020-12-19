@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\tests\\Minify.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\src\\Minify.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\src\\Minify.csproj",
+        "projectName": "Minify",
+        "projectPath": "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\src\\Minify.csproj",
+        "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
+        "outputPath": "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Laura\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\tests\\Minify.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\tests\\Minify.Tests.csproj",
+        "projectName": "Minify.Tests",
+        "projectPath": "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\tests\\Minify.Tests.csproj",
+        "packagesPath": "C:\\Users\\Laura\\.nuget\\packages\\",
+        "outputPath": "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Laura\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\src\\Minify.csproj": {
+                "projectPath": "D:\\EPSI\\B2\\C#\\Tests_Unitaires\\TP_Minify\\Minify\\src\\Minify.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[32.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
